@@ -43,11 +43,11 @@
    - Controls system status based on threshold settings:  
      - **Red**: Alert.  
      - **Green**: Normal values.  
-     - **Blue**: Data being read.  
+    
    - Pins used for **PWM control**:  
      - **R (Red)** -> Pin **D3**.  
      - **G (Green)** -> Pin **D4**.  
-     - **B (Blue)** -> Pin **D5**.  
+     
    - **220Ω resistors** are used for LED protection.
 
 ---
