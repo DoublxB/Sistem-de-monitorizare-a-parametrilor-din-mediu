@@ -125,7 +125,7 @@ To display environmental data from its surroundings and allow users to manipulat
 
 4.Software Design
 
-# 🌡️ Environmental Monitoring System with Visual and Audio Alerts
+# 🌡️ 4.Software Design
 
 A real-time environmental monitoring system using the **BMP280** sensor to measure temperature and pressure, providing visual and audio feedback through an **LCD display**, **RGB LED**, and a **buzzer**. User interaction is enabled via a **joystick** and a dedicated button to toggle audio alerts.
 
