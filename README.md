@@ -44,49 +44,28 @@ A real-time environmental monitoring system using the **BMP280** sensor to measu
 
 1. **Real-Time Monitoring:**  
    Continuous tracking of temperature and pressure using the **BMP280 sensor**.
+   
 
-2. **Dynamic LCD Display:**  
+3. **Dynamic LCD Display:**  
    Real-time visualization of sensor data on a **16x2 I2C LCD**.
+   Visualization of the maximum and minimum temperatures since the system startup.
 
-3. **Visual Alerts via RGB LED:**  
+
+5. **Visual Alerts via RGB LED:**  
    - **Red** → Temperature exceeds the threshold.  
    - **Green** → Temperature is within a safe range.
 
-4. **Interactive Control:**  
+6. **Interactive Control:**  
    - Navigate between screens using a **joystick**.  
    - Adjust the temperature threshold in real-time.
+   - The ability to change the threshold.
+   - Smart Thinking:The LCD returns to the home screen after 30 seconds of inactivity.
 
-5. **Auditory Alerts:**  
-   - **Buzzer** beeps when temperature surpasses the threshold.  
-   - **Button** toggles audio feedback on/off.
 
-6. **Data Logging:**  
+7. **Data Logging:**  
    - Sensor data is transmitted via **Serial (USART)** for debugging.
+   - Storing the maximum and minimum data.
 
----
-
-## 🔌 **Hardware Connections**
-
-| **Component**         | **Arduino Pin** |
-|-----------------------|-----------------|
-| **BMP280 SDA**        | **A4 (SDA)**   |
-| **BMP280 SCL**        | **A5 (SCL)**   |
-| **BMP280 VCC**        | **3.3V**       |
-| **BMP280 GND**        | **GND**        |
-| **LCD I2C SDA**       | **A4 (SDA)**   |
-| **LCD I2C SCL**       | **A5 (SCL)**   |
-| **LCD I2C VCC**       | **5V**         |
-| **LCD I2C GND**       | **GND**        |
-| **LED RGB - Red**     | **D3 (PWM)**   |
-| **LED RGB - Green**   | **D5 (PWM)**   |
-| **LED RGB - Blue**    | **D6 (PWM)**   |
-| **Joystick X-Axis**   | **A0**         |
-| **Joystick Y-Axis**   | **A1**         |
-| **Joystick Button**   | **D2**         |
-| **Buzzer**            | **D4**         |
-| **Audio Toggle Button** | **D7**      |
-
----
 
 ## 💾 **Setup**
 
