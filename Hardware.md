@@ -96,3 +96,10 @@
 | **RGB LED**           | D3 (R), D4 (G), D5 (B)       | PWM control for RGB colors.           |
 
 ---
+
+
+
+![image](https://github.com/user-attachments/assets/72cbba13-4bb7-445d-91a6-34021d3aa504)
+
+
+
